@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "FlybitsContextLocationPluginSDK.xcframework"
   s.homepage = "https://devportal.flybits.com"
   s.summary = "Flybits SDK provides powerful contextualization, customization and integration capabilities for building context-aware apps."
-  s.source = { :http => "https://flybits.jfrog.io/artifactory/Xcode-14.3.1/Flybits/5.1.1-rc5/FlybitsContextLocationPluginSDK.tar.gz", :sha256 => "d14de0e809e3cfa666d6933103ba771cba8b52f3f0c02fdd7164090d80669972" }
+  s.source = { :http => "https://sdks.flybits.com/ios/Xcode-14.3.1/Flybits/5.1.1-rc5/FlybitsContextLocationPluginSDK.tar.gz", :sha256 => "d14de0e809e3cfa666d6933103ba771cba8b52f3f0c02fdd7164090d80669972" }
   s.dependency 'FlybitsSDK', '5.1.1-rc5'
    s.dependency 'FlybitsContextSDK', '5.1.1-rc5'
  end
